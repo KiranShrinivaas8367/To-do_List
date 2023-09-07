@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Todo-List</title>
+</head>
+<body>
+    <div class="full-container">
+        <h1>Todo-List</h1>
+            <div class="input-container">
+                <form action="#">
+
+                    <div class="input-field">
+                        <input type="text" class="inputvalue" id="info" name="info" value="" placeholder="Enter your tasks...">
+                        <input type="submit" id="submit" value="add">   
+                    </div>
+
+                    <div class="radio">
+                        <input type="checkbox" id="completed" name="status" value="completed">
+                        <label for="completed">completed</label>
+
+                        <input type="checkbox" id="notcompleted" name="status" value="notcompleted">
+                        <label for="completed" >not completed</label>
+                    </div>
+
+                </form>
+            </div>
+        
+            <div class="list-container">
+                <h3>Your Tasks</h3>
+                <ul class="list-items">
+
+                </ul>
+            </div>
+    </div>
+    
+    
+</body>
+<script src="./script.js"></script>
+</html>
